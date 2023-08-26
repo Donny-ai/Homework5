@@ -4,51 +4,64 @@ In this project I used OpenWeatherMap API to visualize weather data by latitude.
 
 ## Plots and Descriptions
 
-### Lat_vs_Temp.png
-![Lat_vs_Temp.png](output_data/Lat_vs_Temp.png)
+### Latitude vs Temperature
+![Latitude vs Temperature](output_data/Lat_vs_Temp.png)
+
 Latitudes closer to the equator tend to have higher temperatures and vice versa.
 
-### Lat_vs_Humidity.png
-![Lat_vs_Humidity.png](output_data/Lat_vs_Humidity.png)
+### Latitude vs Humidity
+![Latitude vs Humidity](output_data/Lat_vs_Humidity.png)
+
 There is a general trend of latitudes further from the equator having higher humidity on average, with a few outliers.
 
-### Lat_vs_Cloudiness.png
-![Lat_vs_Cloudiness.png](output_data/Lat_vs_Cloudiness.png)
+### Latitude vs Cloudiness
+![Latitude vs Cloudiness](output_data/Lat_vs_Cloudiness.png)
+
 No observable correlation between latitude and cloudiness.
 
-### Lat_vs_Windspeed.png
-![Lat_vs_Windspeed.png](output_data/Lat_vs_Windspeed.png)
+### Latitude vs Wind Speed
+![Latitude vs Wind Speed](output_data/Lat_vs_Windspeed.png)
+
 Cities further from the equator are slightly more likely to have higher wind speeds today, especially in the southern hemisphere.
 
-### North_Lat_vs_Temp_Regression.png
-![North_Lat_vs_Temp_Regression.png](output_data/North_Lat_vs_Temp_Regression.png)
+### Latitude vs Temperature Regression (Northern Hemisphere)
+![Latitude vs Temperature Regression (Northern Hemisphere)](output_data/North_Lat_vs_Temp_Regression.png)
+
 In this plot, the red line represents the linear regression trained on the latitude and temperature data from today. It predicts that cities further north from the equator are more likely to have lower temperatures.
 
-### South_Lat_vs_Temp_Regress.png
-![South_Lat_vs_Temp_Regress.png](output_data/South_Lat_vs_Temp_Regress.png)
+### Latitude vs Temperature Regression (Southern Hemisphere)
+![Latitude vs Temperature Regression (Southern Hemisphere)](output_data/South_Lat_vs_Temp_Regress.png)
+
 Cities further south from the equator are more likely to have lower temperatures. The relationship gets more extreme below -65 latitude.
 
-### North_Lat_vs_Humidity_Regress.png
-![North_Lat_vs_Humidity_Regress.png](output_data/North_Lat_vs_Humidity_Regress.png)
+### Latitude vs Humidity Regression (Northern Hemisphere)
+![Latitude vs Humidity Regression (Northern Hemisphere)](output_data/North_Lat_vs_Humidity_Regress.png)
+
 Average humidity increases slightly the further north a city is from the equator.
 
-### South_Lat_vs_Humidity_Regress.png
-![South_Lat_vs_Humidity_Regress.png](output_data/South_Lat_vs_Humidity_Regress.png)
+### Latitude vs Humidity Regression (Southern Hemisphere)
+![Latitude vs Humidity Regression (Southern Hemisphere)](output_data/South_Lat_vs_Humidity_Regress.png)
+
 Average humidity increases slightly the further south a city is from the equator.
 
-### North_Lat_vs_Cloud_Regress.png
-![North_Lat_vs_Cloud_Regress.png](output_data/North_Lat_vs_Cloud_Regress.png)
+### Latitude vs Cloudiness Regression (Northern Hemisphere)
+![Latitude vs Cloudiness Regression (Northern Hemisphere)](output_data/North_Lat_vs_Cloud_Regress.png)
+
 No significant relationship is apparent between northern latitudes and cloudiness today. Several cities between 20 and 60 latitude experienced 0% clouds, while cities throughout the northern hemisphere experienced 100% clouds.
 
-### South_Lat_vs_Cloud_Regress.png
-![South_Lat_vs_Cloud_Regress.png](output_data/South_Lat_vs_Cloud_Regress.png)
+### Latitude vs Cloudiness Regression (Southern Hemisphere)
+![Latitude vs Cloudiness Regression (Southern Hemisphere)](output_data/South_Lat_vs_Cloud_Regress.png)
+
 Today, cities further south from the equator were more likely to experience cloudiness.
 
-### North_Lat_vs_Wind_Regress.png
-![North_Lat_vs_Wind_Regress.png](output_data/North_Lat_vs_Wind_Regress.png)
+### Latitude vs Wind Speed Regression (Northern Hemisphere)
+![Latitude vs Wind Speed Regression (Northern Hemisphere)](output_data/North_Lat_vs_Wind_Regress.png)
+
 No strong relationship today between wind speed and latitude.
 
-### South_Lat_vs_Wind_Regress.png
-![South_Lat_vs_Wind_Regress.png](output_data/South_Lat_vs_Wind_Regress.png)
+### Latitude vs Wind Speed Regression (Southern Hemisphere)
+![Latitude vs Wind Speed Regression (Southern Hemisphere)](output_data/South_Lat_vs_Wind_Regress.png)
+
 Today, cities further south of the equator were more likely to experience higher wind speeds.
+
 
